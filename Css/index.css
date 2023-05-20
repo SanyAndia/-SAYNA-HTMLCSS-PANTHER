@@ -1,0 +1,80 @@
+@font-face{
+    font-family: beyno;
+    src: url(../../z/BEYNO/BEYNO.ttf);
+}
+@font-face{
+    font-family: wakanda;
+    src: url(../../z/WakandaForever-Regular.ttf);
+}
+@font-face{
+    font-family: cantarel;
+    src: url(../../z/Cantarell-Regular.ttf);
+}
+@font-face{
+    font-family: panthera;
+    src: url(../../z/PantheraRegular-MVZ9J.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(126.67% 350.28% at -21.35%
+    0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+    0.837641) 94.57%, rgba(2, 23, 64, 0) 100%) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "beyno";
+    margin-left: 20px;
+    color: #F2CEF2;
+}
+/* contenu principal */
+.principal{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+.principalText{
+    margin-top: 100px;
+    font-family: "cantarel";
+    color: #F2CEF2;
+    font-size: 10px;
+}
+.principalText h1{
+    font-family: "panthera";
+    font-size: 45px;
+    color: #9E91B7;
+}
+.principalText h3{
+    font-family: "wakanda";
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: #9E91B7;
+}
+.principalText a{
+    color: #F2CEF2;
+}
+.icone{
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icone img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
