@@ -2,10 +2,20 @@ nav a:hover{
     text-decoration: underline;
     text-decoration-color: #F2CEF2;
 }
-nav a:playing{
+nav a:current{
     color: #9E91B7;
     text-decoration: underline;
 }
+
+#envoyer:hover{
+    filter: drop-shadow(0px 0px 20px #F2CEF2);
+
+}
 .saynaLogo:hover{
     background-color: #9E91B7;
+}
+.envoyerContact:hover{
+    filter: drop-shadow(0px 0px 20px #021740
+    );
+
 }

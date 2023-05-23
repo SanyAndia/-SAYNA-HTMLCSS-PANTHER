@@ -23,12 +23,10 @@ body{
 }
 /* navigation */
 nav{
-    width: 900px;
-    padding-top: 20px;
-    margin-left: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 40px;
 }
 nav a{
     text-decoration: none;
@@ -100,59 +98,73 @@ video{
 }
 /* footer */
 footer{
-    width: 100%;
-    height: 500px;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 2fr 3fr;
-    grid-template-areas: 
-    "logo page localisation"
-    "logo copy localisation ";
-    background: linear-gradient(180deg, #3D2DA6 0%, #021740
-    90.43%);
+    background-size: 100%;
+    background-image: url(../Assets/All\ pages/back_footer.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* div logo */
-.logo{
-    grid-area: "logo";
+
+#divFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 400px;
 }
+
 #logo{
     position : relative;
     width: 40%;
     margin-top: 100px;
     margin-left: 300px;
 }
-#marvel{
-    position: absolute;
-    left: 350px;
-    top: 2450px;
+.logo{
+    grid-area: "logo";
+    background-image: url(../Assets/All\ pages/footer1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 235px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.texteFooter1{
+    letter-spacing: 10px;
+    font-size: 22px;
 }
-/* div page */
-.page{
-    grid-area: "page";
-    margin-top: 50px;
+
+#apropos{
+    padding-top: 20px;
+} 
+
+#footerDIV1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;    
 }
-.page h3,.localisation h3{
-    font-family: "cantarel";
-    letter-spacing: 3px;
+
+#lienIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
 }
-.page a{
-    text-decoration: none;
-    color: #F2CEF2;
-    font-family: "cantarel";
-    margin-top: 20px;
-}
-/* div localisation */
-.localisation{
-    grid-area: "localisation";
-    margin-top: 50px;
-}
-.localisation img{
-    width: 30px;
-    margin-left: 10px;
-}
-.copyrigth{
-    grid-area: "copy";
-    margin-top: 200px;
-    font-size: 15px;
+
+#texteFooter{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 0%;
 }
 

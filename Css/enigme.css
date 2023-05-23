@@ -1,3 +1,15 @@
+@font-face{
+    font-family: beyno;
+    src: url(../../z/BEYNO/BEYNO.ttf);
+}
+@font-face{
+    font-family: wakanda;
+    src: url(../../z/WakandaForever-Regular.ttf);
+}
+@font-face{
+    font-family: cantarel;
+    src: url(../../z/Cantarell-Regular.ttf);
+}
 body{
     background-image: url(../Assets/All\ pages/arrière_plan.png);
     background-repeat: no-repeat;
@@ -61,7 +73,7 @@ a{
 }
 
 #fondOvale1{
-    font-family: "cantarell";
+    font-family: "cantarel";
     font-size: 12px;
     background-image: url(../Assets/Enigme/Pantherenigme2.png);
     width: 100%;
@@ -92,7 +104,7 @@ a{
 }
 
 .texte{
-    font-family: "cantarell";
+    font-family: "cantarel";
     font-size: 12px;
 }
 
@@ -132,7 +144,7 @@ a{
     border: 1px solid #fff;
     background: none;
     padding-left: 25px;
-    font-family: "cantarell";
+    font-family: "cantarel";
     font-weight: 16px;
 }
 
@@ -157,8 +169,6 @@ a{
     background-repeat: no-repeat;
     text-align: center;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 60%;
 }
 
